@@ -1,0 +1,27 @@
+.home {
+    background: url('../assets/home-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.home header {
+    width:100%;
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .logo {
+    width:250px;
+    margin-bottom: 20px;
+}
+
+.home .slogan {
+    font-size: 3rem;
+    font-family: 'Barlow-Light';
+    margin:0px;
+    color:#FFFFFF;
+}

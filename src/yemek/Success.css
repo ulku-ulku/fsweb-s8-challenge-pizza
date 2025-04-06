@@ -1,0 +1,16 @@
+.success {
+    background-color: #CE2829;
+    height:100vh;
+}
+
+.success .logo {
+    width:250px;
+    margin-bottom: 20px;
+}
+
+.success .slogan {
+    font-size: 3rem;
+    font-family: 'Barlow-Light';
+    margin:0px;
+    color:#FFFFFF;
+}

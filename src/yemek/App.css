@@ -1,0 +1,47 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../assets/fonts/Barlow/Barlow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow-Light';
+    src: url('../assets/fonts/Barlow/Barlow-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+    border-radius: 15px;
+    border-style: none;
+    padding: 6px;
+    min-width: 150px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Barlow';
+}
+
+.btn-numeric {
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Barlow';
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn:active {
+    opacity: .9;
+}
+
+.btn-yellow {
+    background-color: #FDC913;
+    color:#000000;
+}
